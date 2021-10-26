@@ -1,0 +1,64 @@
+html {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+   color: white;
+}
+div{
+    display: flex;
+    
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+div p {
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+h1{
+    padding-top: 0rem;
+    padding-left: 1rem;
+}
+
+
+
+
+.parallax1 {
+    /* The image used */
+    background-image: url("./stehlík.jpg");
+  
+    /* Set a specific height */
+    min-height: 1500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax2 {
+    /* The image used */
+    background-image: url("./red.jpg");
+  
+    /* Set a specific height */
+    min-height: 700px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax3 {
+    /* The image used */
+    background-image: url("./delorean.jpg");
+  
+    /* Set a specific height */
+    min-height: 2000px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

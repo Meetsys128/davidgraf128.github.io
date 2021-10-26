@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css2.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <header>
+            <a href="./index.html" class="logo">A link to the past! (previous page)</a>
+            
+        </header>
+        <img class="bg" src="./delorean.jpg"> ¨
+        <img class="bird" src="./mcfly.png">
+        <div class="content">
+<h2>A badly croped out<br><span> Marty Macfly</span></h2>
+<p>Its the time travel guy or whatever. This is supposed to be a longer text so...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque placerat dui erat, at porttitor felis hendrerit eu. Nullam nec elit urna. Phasellus id dapibus dui, a ullamcorper magna. Sed nec arcu sit amet tortor posuere luctus non lobortis nibh. Cras interdum eros in commodo imperdiet. Cras a eros nec dolor malesuada cursus sed at augue. In vehicula ut orci a tristique. In lectus nisl, faucibus quis lacus sit amet, dictum congue urna. Phasellus lorem lacus, imperdiet tempus congue sed, porta et odio. Phasellus sit amet mi sed odio ultrices tincidunt. Fusce dapibus non odio sit amet elementum.</p>
+<a href="">join us!</a>
+        </div>
+    </section>
+    <script type="text/javascript">
+    document.addEventListener("mousemove", function(e){
+        const bg = document.querySelector(".bg");
+        const bird = document.querySelector(".bird");
+        const content = document.querySelector(".content");
+
+        bg.style.width = 100 + e.pageX/100 + "%";
+        bg.style.height = 100 + e.pageX/100 + "%";
+
+        bird.style.right = e.pageX/2 + "px";
+
+        content.style.left = e.pageX/2 + "px";
+    })
+    </script>
+</body>
+</html>
